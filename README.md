@@ -1,6 +1,13 @@
 # Menu-assessment
 Simple Responsive Front-end task  
 
+THE STACK
+* I have used Bootstrap Grid system to quickly build responsive pages along with CSS3 and HTML5.
+* As guided to use any JS library/framework to read in the JSON, I used AngularJS on the front end.
+* I have used Node.js as the server and lowdb - 'a flat file json db powered by lodash' as the database. So that in further if I want to further edit the menu or add prices/images etc would be easily done and also it doesnt need any server for itself and easy to setup. 
+
+
+
 Guidelines to run the App  
 0)If node.js is already installed skip this step. Download and install node.js from "https://nodejs.org/en/".  
 1) Pull from git hub repository: git@github.com:Nishanth15293/Menu-assessment.git or download Zipped folder :https://github.com/Nishanth15293/Menu-assessment.  
