@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="bower_components/angular/angular.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.2/angular.min.js"></script>-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="module.js"></script>
+    <script src="config.js"></script>
+    <script src="controllers/mainController.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>-->
+    <link rel="stylesheet" href=" bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Orienta" />
+    <title>Menuat</title>
+</head>
+
+<body class="background" ng-app = "app">
+      <div class="wrapper">
+        <div class="container fluid" ng-controller="mainController">
+
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                    <div ng-repeat="item in column1">
+                        <h3 class="border">{{item.categoryName}} </h3>
+                        <div ng-repeat="subitem in item.subitem">
+                            <h4 class="item"> {{subitem.name}} </h4>
+                            <p class="desc">{{subitem.description}} </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div ng-repeat="item in column2">
+                        <h3 class="border">{{item.categoryName}} </h3>
+                        <div ng-repeat="subitem in item.subitem">
+                            <h4 class="item"> {{subitem.name}} </h4>
+                            <p class="desc">{{subitem.description}} </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                        <div ng-repeat="item in column3">
+                            <h3 class="border">{{item.categoryName}} </h3>
+                            <div ng-repeat="subitem in item.subitem">
+                                <h4 class="item"> {{subitem.name}} </h4>
+                                <p class="desc">{{subitem.description}} </p>
+                            </div>
+                        </div>
+
+                </div>
+                <div > <div class="center"><img class="image" src="images/0001.jpg"></div></div>
+            </div>
+
+
+
+
+        </div>
+      </div>
+
+
+
+</body>
+</html>

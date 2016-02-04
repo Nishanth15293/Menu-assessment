@@ -1,0 +1,25 @@
+{
+  "name": "Menuat",
+  "description": "Assessment task",
+  "main": "index.html",
+  "authors": [
+    "Nishanth15293 <777.nishanth@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "https://github.com/Nishanth15293",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "ui-router#~0.2.17",
+    "lodash": "~4.2.1",
+    "jQuery": "~2.2.0",
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.9"
+  }
+}

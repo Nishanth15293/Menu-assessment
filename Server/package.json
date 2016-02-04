@@ -1,0 +1,19 @@
+{
+  "name": "menuat",
+  "version": "1.0.0",
+  "description": "Assessment task",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Nishanth",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "lodash": "^4.2.1",
+    "lowdb": "^0.12.2",
+    "path": "^0.12.7"
+  }
+}

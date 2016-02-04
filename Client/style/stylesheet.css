@@ -1,0 +1,53 @@
+.fullScreen{
+   /* background: url(../images/Fire_2sec.gif) no-repeat center center fixed;*/
+    background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation : xyz 8s infinite;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    color: transparent;
+    background-color: black;
+    min-height: 720px;
+    min-width: 720px;
+}
+
+@keyframes xyz {
+    0%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+    }
+    50%{background: url(../images/PastedGraphic-3.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+       /* transform: rotateY(360deg);*/
+
+    }
+
+
+
+
+}
+
+.column{
+ border: solid;
+    border-color: white;
+}
+
+.alg{
+    text-align: center;
+}
+
+.categoryName{
+    border: solid;
+    border-color: white;
+}
+
+.matter{
+    z-index: 1;
+    animation: none;
+}

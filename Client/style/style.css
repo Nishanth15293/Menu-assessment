@@ -1,0 +1,223 @@
+
+.background{
+   
+    background-image:url(../images/PastedGraphic-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation : rotate 16s infinite;
+    -webkit-animation-name : rotate;
+    -webkit-animation-duration: 16s;
+    -webkit-animation-iteration-count: infinite;
+  -moz-animation : rotate 16s linear 0s infinite;
+    -o-animation : rotate 16s infinite;
+
+}
+
+@-webkit-keyframes rotate {
+    0%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+    }
+    25%{
+        background: url(../images/PastedGraphic-3.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+
+    }
+    50%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+
+    }
+    75%{
+        background: url(../images/PastedGraphic-3.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+
+    }
+    100%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+
+
+    }
+
+}
+
+@keyframes rotate {
+    0%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        
+    }
+    25%{
+        background: url(../images/PastedGraphic-3.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        
+
+    }
+    50%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        
+
+    }
+    75%{
+        background: url(../images/PastedGraphic-3.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        
+
+    }
+    100%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        
+        
+
+    }
+
+}
+
+@-moz-keyframes rotate {
+    0%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+    }
+    25%{
+        background: url(../images/PastedGraphic-3.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+
+    }
+    50%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+
+    }
+    75%{
+        background: url(../images/PastedGraphic-3.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+
+    }
+    100%{
+        background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        -moz-background: url(../images/PastedGraphic-2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+
+
+
+    }
+    
+}
+
+
+
+
+
+.border{
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat";
+}
+.item{
+    color:white;
+    text-align: center;
+    font-family: "Oswald";
+}
+.desc{
+    color: white;
+    text-align:center;
+    font-family: "Source Sans Pro";
+}
+
+.center{
+    text-align: center;
+    /*margin-top: 850px;*/
+    position: relative;
+}
+.wrapper{
+    height:100vh !important;
+}
+@media screen and (max-width: 767px) {
+    .image{
+        width: 90px !important;
+        height:90px !important;
+        margin-top: 2% !important;
+        margin-bottom: 1% !important;
+
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    .image{
+        width: 120px !important;
+        height:120px !important;
+        margin-top: 7% !important;
+        margin-bottom: 1% !important;
+
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    .image{
+        width: 120px !important;
+        height:120px !important;
+        margin-top: 3% !important;
+        margin-bottom: 1% !important;
+
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    .image{
+        width: 140px !important;
+        height:140px !important;
+        margin-top: 2% !important;
+        margin-bottom: 1% !important;
+
+    }
+    .wrapper{
+        height: 100%;
+    }
+}
