@@ -202,7 +202,7 @@
     .image{
         width: 120px !important;
         height:120px !important;
-        margin-top: 3% !important;
+        margin-top: 6% !important;
         margin-bottom: 1% !important;
 
     }
@@ -213,10 +213,33 @@
     .image{
         width: 140px !important;
         height:140px !important;
-        margin-top: 2% !important;
+        margin-top: 3% !important;
         margin-bottom: 1% !important;
 
     }
+
+    }
+
+@media screen and (min-width: 1600px) {
+    .image{
+        width: 180px !important;
+        height:180px !important;
+        margin-top: 4% !important;
+        margin-bottom: 1% !important;
+
+    }
+
+    .border{
+        font-size: 1.6em;
+    }
+    .item{
+        font-size: 1.2em;
+    }
+    .desc{
+        font-size: 1.3em;
+    }
+
+
     .wrapper{
         height: 100%;
     }
